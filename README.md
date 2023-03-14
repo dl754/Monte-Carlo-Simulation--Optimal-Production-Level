@@ -17,11 +17,17 @@ This project is an implementation of the Newsvendor Model, a well-known optimiza
 
 Your business analyst forecasts that the demand for Product X is normally distributed with a mean of 150 and a standard deviation of 20. The total cost of manufacturing and logistics for each unit is $28.50, and you sell the earbuds at a retail price of $150.00. Any earbuds not sold within one month need to be disposed of in an environmentally sustainable way, which will cost the company $8.50 per unit
 
+* Mean = 150
+* Stdve = 20
+* Total_Cost/Unit = $28.50
+* Retail_Price/Unit = $150.00
+* Salvage_Valie/Unit = -$8.50
+
 ## Requirements<a name="Requirements"></a>
 
 * Python 3
-* numpy
-* matplotlib
+* NumPy
+* Matplotlib
 
 ## Usage
 
