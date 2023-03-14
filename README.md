@@ -7,7 +7,7 @@ This project is an implementation of the Newsvendor Model, a well-known optimiza
 
 ## Table of Contents
 1. [Background](##Background)
-2. Requirements
+2. [Requirements](##Requirements)
 3. Usage
 4. Results
 5. Contributing
@@ -18,6 +18,11 @@ The Newsvendor Model is commonly used in inventory management to determine the o
 
 The newsvendor model assumes that the product has a fixed cost and a variable cost, and that the demand is uncertain and follows a known probability distribution. The goal of the model is to find the optimal production level that maximizes expected profit.
 
-## Example2
+## Requirements
+
+
 ## Third Example
-## [Fourth Example](http://www.fourthexample.com) 
+
+To run the simulation, simply run the newsvendor.py script. You can adjust the input parameters in the script to match your specific product and market.
+
+
