@@ -2,27 +2,34 @@
 
 This project is an implementation of the Newsvendor Model, a well-known optimization model used in inventory management. The model is used to determine the optimal production level for a product with uncertain demand. Monte Carlo Simulation is used to generate demand scenarios and find the optimal production level that maximizes expected profit.
 
-* Created a program simulation written in Python that will generate a recommendation given a set of parameters
+* Created a program simulation written in Python to generate a recommended production quantity based on the given set of parameters
 * Parameters: unit price, retail price, cost of disposing, and number of units to manufacture
 
 ## Table of Contents
 1. [Background](##Background)
 2. [Requirements](##Requirements)
-3. Usage
-4. Results
-5. Contributing
-6. License
+3. [Usage](##Usage)
+4. [Results](##Results)
+5. [Contributing](##Contributing)
+6. [License](##License)
 
 ## Background
-The Newsvendor Model is commonly used in inventory management to determine the optimal production level for a product with uncertain demand. It is called the newsvendor model because it is similar to a newspaper vendor who must decide how many papers to order each day without knowing exactly how many customers will buy them.
 
-The newsvendor model assumes that the product has a fixed cost and a variable cost, and that the demand is uncertain and follows a known probability distribution. The goal of the model is to find the optimal production level that maximizes expected profit.
+Your business analyst forecasts that the demand for Product X is normally distributed with a mean of 150 and a standard deviation of 20. The total cost of manufacturing and logistics for each unit is $28.50, and you sell the earbuds at a retail price of $150.00. Any earbuds not sold within one month need to be disposed of in an environmentally sustainable way, which will cost the company $8.50 per unit
 
 ## Requirements
 
+* Python 3
+* numpy
+* matplotlib
 
-## Third Example
+## Usage
 
 To run the simulation, simply run the newsvendor.py script. You can adjust the input parameters in the script to match your specific product and market.
 
 
+## Results
+
+## Contributing
+
+## License
