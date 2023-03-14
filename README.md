@@ -8,10 +8,10 @@ This project is an implementation of the Newsvendor Model, a well-known optimiza
 ## Table of Contents
 1. [Background](#Background)
 2. [Requirements](#Requirements)
-3. [Usage](##Usage)
-4. [Results](##Results)
-5. [Contributing](##Contributing)
-6. [License](##License)
+3. [Usage](#Usage)
+4. [Results](#Results)
+5. [Contributing](#Contributing)
+6. [License](#License)
 
 ## Background
 
