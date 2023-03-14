@@ -6,7 +6,7 @@ This project is an implementation of the Newsvendor Model, a well-known optimiza
 * Parameters: unit price, retail price, cost of disposing, and number of units to manufacture
 
 ## Table of Contents
-1. [Background](## Background)
+1. [Background](##Background)
 2. Requirements
 3. Usage
 4. Results
