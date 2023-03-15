@@ -10,8 +10,7 @@ This project is an implementation of the Newsvendor Model, a well-known optimiza
 2. [Requirements](#Requirements)
 3. [Usage](#Usage)
 4. [Results](#Results)
-5. [Contributing](#Contributing)
-6. [License](#License)
+5. [License](#License)
 
 ## Background
 
@@ -31,11 +30,41 @@ Your business analyst forecasts that the demand for TwoPlus Earbuds X is normall
 
 ## Usage
 
-To run the simulation, simply run the newsvendor.py script. You can adjust the input parameters in the script to match your specific product and market.
+To run the simulation, simply input Command:
+  simul = 1000
+  ps = ProfitStimulation(simul)
+  ps.loop_manufactured(). 
+  
+This will create an instance of the ProfitSimulation class with simul number of simulations, and then call the loop_manufactured method to perform the simulation and plot the results. You can adjust the value of simul to increase or decrease the number of simulations performed. Additionally, you can modify the parameters passed to the __init__ method of the ProfitSimulation class to simulate different scenarios.
 
 
 ## Results
 
-## Contributing
+
+
+
 
 ## License
+
+MIT License
+
+Copyright (c) [2023] [Konstantin Liu]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
