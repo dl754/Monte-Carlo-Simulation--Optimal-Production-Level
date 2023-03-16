@@ -43,6 +43,8 @@ This will create an instance of the ProfitSimulation class with simul number of 
 ## Results
 
 ![alt text](https://github.com/dl754/Newsvendor-with-Monte-Carlo-Simulation--Optimal-Production-Level/blob/main/output.png)
+
+
 Optimal Production Units: 169, Maximized Profit: $17365.719
 
 ## License
