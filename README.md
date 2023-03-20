@@ -1,6 +1,6 @@
-# Newsvendor with Monte Carlo Simulation-Optimal Production Level
+# Monte Carlo Simulation-Optimal Production Level
 
-This project is an implementation of the Newsvendor Model, a well-known optimization model used in inventory management. The model is used to determine the optimal production level for a product with uncertain demand. Monte Carlo Simulation is used to generate demand scenarios and find the optimal production level that maximizes expected profit.
+The model is used to determine the optimal production level for a product with uncertain demand. Monte Carlo Simulation is used to generate demand scenarios and find the optimal production level that maximizes expected profit.
 
 * Created a program simulation written in Python to generate a recommended production quantity based on the given set of parameters
 * Parameters: unit price, retail price, cost of disposing, and number of units to manufacture
